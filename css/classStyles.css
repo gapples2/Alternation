@@ -48,3 +48,12 @@
 .halfJumpThings{
     flex-direction: column;
 }
+.canBuy{
+  border-color: #00ff00;
+}
+.midBuy{
+  border-color: #aaaa00;
+}
+.cantBuy{
+  border-color: #ff0000;
+}

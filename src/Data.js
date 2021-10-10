@@ -74,6 +74,7 @@ function fixOldSaves(){
     if (data.updateIDs[1] === 3) fullReset()
     if (data.updateIDs[1] === 4) fullReset()
     if (data.updateIDs[1] !== 6) data.updateIDs[1] = 6
+    if (data.updateIDs[2] !== 1) data.updateIDs[2] = 1
 }
 function exportSave(){
     save()
